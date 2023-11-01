@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Rubik:wght@600&display=swap');
+
+:root{
+  --mainDarkPurple : #352F60;
+  --mainLightPurple : #695EBF;
+}
+
+
+html * {
+  font-family: 'Boogaloo', sans-serif;
+  color: white;
+}
+
+#nameField {
+  color: white;
+  background-color : var(--mainLightPurple);
+}
+
+body {
+  /* The image used */
+  background-image: url("./assets/peakpx.jpg");
+
+  /* Full height */
+  height: 100vh; 
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerClass{
+  background-color: var(--mainDarkPurple);
+  min-width: 450px;
+}
+
+.textSize-1{
+  font-size: 2.5em;
+}
+.textSize-2{
+  font-size: 1.6em;
+}
+.textSize-3{
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .containerClass{
+    min-width: 100%;
+  }
+}
+
+.mainBtn{
+  background-color: var(--mainLightPurple);
+  min-width: 40%;
+}
